@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoEngineCore", "MemoEngineCore\MemoEngineCore.csproj", "{88533538-78E2-4ECC-A80F-3F8F032857BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88533538-78E2-4ECC-A80F-3F8F032857BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88533538-78E2-4ECC-A80F-3F8F032857BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88533538-78E2-4ECC-A80F-3F8F032857BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88533538-78E2-4ECC-A80F-3F8F032857BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C91CAB47-B986-41FF-B956-2B6F4B0D5676}
+	EndGlobalSection
+EndGlobal
