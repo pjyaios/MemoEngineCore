@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoEngineCore", "MemoEngineCore\MemoEngineCore.csproj", "{88533538-78E2-4ECC-A80F-3F8F032857BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNetCoreBook", "AspNetCoreBook", "{FEFB0D75-A315-4F54-BDB0-44AEFC50BDB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_VisualStudio", "01_VisualStudio", "{CE5F8F5F-FEC2-453C-9684-73645FD2B3B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Aspnet", "02_Aspnet", "{FE3CA065-EEF7-4151-9D3A-01BE461AA460}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_WebForms", "03_WebForms", "{8E2FF14C-3184-4819-BA4A-3244803ED98A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevWindowsForms", "..\DevWindowsForms\DevWindowsForms.csproj", "{D05358B8-D025-4F4D-8874-24F7E96A1D9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +25,19 @@ Global
 		{88533538-78E2-4ECC-A80F-3F8F032857BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88533538-78E2-4ECC-A80F-3F8F032857BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88533538-78E2-4ECC-A80F-3F8F032857BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05358B8-D025-4F4D-8874-24F7E96A1D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05358B8-D025-4F4D-8874-24F7E96A1D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05358B8-D025-4F4D-8874-24F7E96A1D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05358B8-D025-4F4D-8874-24F7E96A1D9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE5F8F5F-FEC2-453C-9684-73645FD2B3B9} = {FEFB0D75-A315-4F54-BDB0-44AEFC50BDB4}
+		{FE3CA065-EEF7-4151-9D3A-01BE461AA460} = {FEFB0D75-A315-4F54-BDB0-44AEFC50BDB4}
+		{8E2FF14C-3184-4819-BA4A-3244803ED98A} = {FEFB0D75-A315-4F54-BDB0-44AEFC50BDB4}
+		{D05358B8-D025-4F4D-8874-24F7E96A1D9F} = {8E2FF14C-3184-4819-BA4A-3244803ED98A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C91CAB47-B986-41FF-B956-2B6F4B0D5676}
